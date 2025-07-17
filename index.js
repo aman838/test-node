@@ -11,7 +11,7 @@ app.use(express.json());
 app.use("/api/todo",todoRouter)
 
 app.get("/", (req, res) => {
-  return res.status(200).json({ message: "hello world" });
+  return res.status(200).json({ message: "<===hello world===>" });
 });
 
 connectDB()
